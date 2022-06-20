@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- Author: Natasha Lucio -->
+<!-- Course: CSCI 4000-01 -->
+<!-- Program Date: 2-7-2021 -->
+<!-- Description: Question 3 Assignment 1 -->
+
+<html lang="en"> <!-- specifies language used by this document -->
+<head>
+	<title>Natasha Lucio's Kung Fu Panda Po Power Level</title>
+	<meta charset="utf-8"><!-- character coding -->
+	<link rel="stylesheet" href="style.css"> <!-- link to external style sheet -->
+	
+</head>
+
+<body>
+	<main>
+		<h1>Natasha Lucio&#39;s Kung Fu Panda</h1>
+		<h1>Po Power Level</h1>
+		<br>
+		
+		<h2>This page will prompt Natasha Lucio for Kung Fu Panda Po&#39;s power level (in numbers).
+		The program will convert the given input into Po's power metric.</h2>
+		<br>
+		
+			<p>less than 0: Po eats too many noodles</p>
+			
+			<p>0 to 200: Po reaches the training hall</p>
+			
+			<p>201 to 400: Po reaches the student barracks</p>
+			
+			<p>401 to 600: Po reaches the Peach Tree of Heavenly Wisdom</p>
+			
+			<p>601 to 800: Po climbs the Wu Da Mountains</p>
+			
+			<p>801 to 1000: Po trains at the Pool of Sacred Tears</p>
+			
+			<p>Greater than 1000: Po defeats Tai Lung</p>
+			<br>
+			<br>
+		
+		
+		<h3>Click on the button below to submit Po's power level</h3>
+		<br>
+		
+		<!--creates a form using the "post" method -->
+		<form method ="post" action="index_process.php">
+			<div id="data"> <!--creates id called "data" for css formatting-->
+				
+				<!--creates a label called "Po's power level" and a text box for input -->
+				<label>Po&#39;s power level:</label>
+				<input type="text" name="power_level" value="">
+				&nbsp; 
+				<br>
+			</div>
+			
+			<div id="buttons"> <!--creates id called "buttons" for css formatting-->
+				<label>&nbsp;</label> <!--label for alignment-->
+				<input type="submit" value="submit"> <!--created submit button to submit form-->
+				<br>
+			</div>
+		</form> <!--end form-->
+	</main>
+
+</body>
+</html>
