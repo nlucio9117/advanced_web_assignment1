@@ -1,0 +1,88 @@
+/**********************************************************************************************
+* Description: Question 1 Assignment 1 External style sheet for index.htm and index_process.php
+* Author: Natasha Lucio
+* Course: CSCI 4000-01
+* Date: 2-7-2021
+***********************************************************************************************/
+
+
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+/*set background color to light orange*/
+html {
+	background-color: #ff9933;
+}
+
+/*set body of page*/
+body {
+    font-family: Georgia, serif;
+	width: 800px;
+	margin: 20px auto; 
+	padding: 0;
+}
+
+/*set star image to the right*/
+img {
+  float: right;
+}
+
+/*set the area that contains the form*/
+main {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    background-color: #800000;
+	border-radius: 15px;
+}
+
+/*setting vertical space between unordered list items*/
+ul li {
+	line-height: 200%
+}
+
+/*set all possible headings and paragraphs*/
+h1, h2, h3, h4, p {
+	margin: 0;
+	padding: 0;
+	color: #ffa64d;
+	text-align: center;
+}
+
+/*set link to orange color*/
+a {
+	color: #ffa64d;
+}
+
+/*set just the paragraph*/
+p {
+	font-size: 12px;
+	text-align: center;
+}
+
+/*set labels in the form*/
+label {
+    width: 15em;
+    padding-right: 1em;
+    float: left;
+	font-family: Georgia, serif;
+	font-weight: bold;
+}
+
+/*set data input*/
+#data input {
+    float: left;
+    width: 10em;
+    margin-bottom: .5em;
+}
+
+/*set button input*/
+#buttons input {
+    float: left;
+    margin-bottom: .5em;
+}
+
+br {
+    clear: left;
+}
+

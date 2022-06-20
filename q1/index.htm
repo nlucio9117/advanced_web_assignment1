@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- Author: Natasha Lucio -->
+<!-- Course: CSCI 4000-01 -->
+<!-- Program Date: 2-7-2021 -->
+<!-- Description: Question 1 Assignment 1 -->
+
+<html lang="en"> <!-- specifies language used by this document -->
+<head>
+	<title>Natasha Lucio's Movie Page</title>
+	<meta charset="utf-8"><!-- character coding -->
+	<link rel="stylesheet" href="style.css"> <!-- link to external style sheet -->
+	
+</head>
+
+<body>
+	<main>
+		<h1>Natasha Lucio&#39;s Favorite Movie</h1>
+		<br><!--line break-->
+		<img src="star1.png" alt="yellow star">
+		
+		<p>This page will prompt Natasha Lucio for information on her favorite movie.</p>
+		<br><!--line break-->
+		
+		<h3>Click on the button below to enter new information</h3>
+		<br><!--line break-->
+		
+		<!--creates a form using the "post" method -->
+		<form method ="post" action="index_process.php">
+			<div id="data"> <!--creates id called "data" for css formatting-->
+				<!--creates a label called "Movie Name" and a text box for input -->
+				<label>Movie Name:</label>
+				<input type="text" name="movie" value="">
+				&nbsp; 
+				<br><!--line break-->
+				
+				<!--creates a label called "Directed by" and a text box for input -->
+				<label>Directed by:</label>
+				<input type="text" name="director" value="">
+				&nbsp; 
+				<br><!--line break-->
+				
+				<!--creates a label called "Release Date" and a text box for input -->
+				<label>Release Date (year):</label>
+				<input type="text" name="release_date" value="">
+				&nbsp; 
+				<br><!--line break-->
+				
+				<!--creates a label called "Budget" and a text box for input -->
+				<label>Budget (US$, million):</label>
+				<input type="text" name="budget" value="">
+				&nbsp; 
+				<br><!--line break-->
+				
+				<!--creates a label called "Box Office" and a text box for input -->
+				<label>Box Office (US$, million):</label>
+				<input type="text" name="box_office" value="">
+				&nbsp; 
+				<br><!--line break-->
+				<br><!--line break-->
+			</div>
+			
+			<div id="buttons"> <!--creates id called "buttons" for css formatting-->
+				<label>&nbsp;</label> <!--label for alignment-->
+				<input type="submit" value="submit"> <!--created submit button to submit form-->
+				<br><!--line break-->
+			</div>
+		</form> <!--end form-->
+	</main>
+
+</body>
+</html>
